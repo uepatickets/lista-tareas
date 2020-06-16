@@ -12,7 +12,7 @@
 			contenido = document.createTextNode(tarea);
 
 		if (tarea === "") {
-			tareaInput.setAttribute("placeholder", "Agrega una tarea valida");
+			tareaInput.setAttribute("placeholder", "Agrega una tarea válida");
 			tareaInput.className = "error";
 			return false;
 		}
@@ -36,7 +36,7 @@
 
 	};
 	var comprobarInput = function(){
-		tareaInput.className = "";
+		tareaInput.className = "form-control";
 		teareaInput.setAttribute("placeholder", "Agrega tu tarea");
 	};
 
